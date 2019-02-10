@@ -151,10 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="chapters.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="print.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="chapters.cpp" />
     <ClCompile Include="huxke,go!.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
