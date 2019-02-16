@@ -4,7 +4,7 @@
 
 void distime(int x) {
 #ifndef DEBUG
-	Sleep(x)
+	Sleep(x);
 #endif
 }
 

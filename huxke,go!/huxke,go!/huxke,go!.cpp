@@ -3,7 +3,7 @@
 int hp;
 vector<Thing> backpack;
 string name;
-int Cnum;
+int Cnum = 1;
 
 void save();
 

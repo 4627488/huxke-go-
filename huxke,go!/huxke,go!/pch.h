@@ -1,6 +1,6 @@
 ﻿#ifndef PCH_H
 #define PCH_H
-#define DEBUG
+//#define DEBUG
 
 //预编译标头
 using namespace std;
@@ -38,7 +38,7 @@ struct Thing {
 
 struct Room {
 	string name;
-	int n, s, w, e;
+	int n = -1, s = -1, w = -1, e = -1;
 };
 
 extern int hp;
